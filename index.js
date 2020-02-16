@@ -137,7 +137,7 @@ function setTime(barNum, volunteerIndex, r, column, currentTime, currentDate) {
     }
     //console.log(dateLocation + (volunteerIndex + 1));
     var params = {
-        spreadsheetId: '17GHPrictxASzfodpFt8NZosMHElYgan4BcQV3eva9rQ',
+        spreadsheetId: 'NONONO',
         range: dateLocation + (volunteerIndex + 1),
         valueInputOption: 'USER_ENTERED',
     };
