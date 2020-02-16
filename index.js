@@ -97,7 +97,7 @@ function checkStudent(barNum, num) { // add boolean as param for checking in or 
 
 function locateStudent(barNum, column, currentTime, currentDate, num) {
     var params = {
-        spreadsheetId: '17GHPrictxASzfodpFt8NZosMHElYgan4BcQV3eva9rQ',
+        spreadsheetId: 'NONONO',
         range: 'Sheet1',
         majorDimension: 'ROWS',
         valueRenderOption: 'FORMATTED_VALUE',
