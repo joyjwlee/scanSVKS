@@ -1,61 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 6vw;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 6vw;
 }
 
 button {
-    width: 80vw;
-    margin-left: 10vw;
-    height: 10vw;
-    margin-top: 10vw;
+  width: 80vw;
+  margin-left: 10vw;
+  height: 10vw;
+  margin-top: 10vw;
 }
 
 #confPage {
-    background-color: #DDDDDD;
-    width: 100vw;
-    height: 100vh;
-    display: none;
-    opacity: 0;
-    transition: opacity 1s;
-    position: absolute;
-    top: 0;
-    z-index: 100;
+  background-color: #dddddd;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  top: 0;
+  z-index: 100;
 }
 
 #personProfile {
-    width: 80vw;
-    height: auto;
-    margin-top: 10vw;
-    margin-left: 10vw;
+  width: 80vw;
+  height: auto;
+  margin-top: 10vw;
+  margin-left: 10vw;
 }
 
 #personName {
-    margin-left: 10vw;
-    margin-top: 3vw;
-    font-size: 7vw;
+  margin-left: 10vw;
+  margin-top: 3vw;
+  font-size: 7vw;
 }
 
 .personAttribute {
-    margin-left: 10vw;
-    margin-top: 3vw;
-    font-size: 5vw;
+  margin-left: 10vw;
+  margin-top: 3vw;
+  font-size: 5vw;
 }
 
-canvas.drawing, canvas.drawingBuffer {
-    position: absolute;
-    left: 0;
-    top: 0;
+canvas.drawing,
+canvas.drawingBuffer {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 #barcodeArea {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
 }
